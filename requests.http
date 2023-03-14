@@ -1,0 +1,17 @@
+### Utilizamos este archivo para crear peticiones a nuestro servidor
+
+### Extension: REST Client
+
+### Listar todos los mensajes
+GET http://localhost:3000/mensajes
+
+### Crear un mensaje nuevo
+POST http://localhost:3000/mensajes
+Content-Type: application/json
+
+{
+    "content":"Esto es un mensaje"
+}
+
+### Conseguir un mensaje en particular
+GET http://localhost:3000/mensajes/15
