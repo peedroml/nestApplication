@@ -15,7 +15,14 @@
     "@nestjs/platform-express": "^7.6.17",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.0",
+    "fs.promises": "^0.1.2",
+    "node-readfiles": "^0.3.1",
+    "nvm": "^0.0.4",
     "reflect-metadata": "^0.1.13",
+    "rotating-file-stream": "^3.1.0",
     "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3"
   }
 }

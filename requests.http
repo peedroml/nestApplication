@@ -14,4 +14,4 @@ Content-Type: application/json
 }
 
 ### Conseguir un mensaje en particular
-GET http://localhost:3000/mensajes/15
+GET http://localhost:3000/mensajes/108
